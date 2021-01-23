@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Weather</title>
+    <link rel="icon" href="https://bostonglobe-prod.cdn.arcpublishing.com/resizer/FP1GJPmPpu61YAv553ZgMRpHvNk=/1440x0/arc-anglerfish-arc2-prod-bostonglobe.s3.amazonaws.com/public/HCIJCIQ2UAI6VKP2L3WHYVGSUE.jpg">
+    <link rel="stylesheet" href="/css/styles.css">
+  </head>
+  <body>
+    <div class="main-content">
+      {{>header}}
+      <p>Use this site to get your weather</p>
+
+      <form>
+        <input placeholder="Location">
+        <button>Search</button>
+      </form>
+
+      <p id="message-1"></p>
+      <p id="message-2"></p>
+    </div>
+    {{>footer}}
+
+    <script src="/js/app.js"></script>
+  </body>
+</html>
